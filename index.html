@@ -4,6 +4,8 @@
 		<meta charset="utf-8" />
 		<title>Flower Shop</title>
 		<link rel="icon" type="image/png" href="images/favicon.png">
+		<link href="styles/global.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans" rel="stylesheet">
 	</head>
 	<body>
 		<div id="promo" >
@@ -42,7 +44,7 @@
 			</div>
 			<div class="clear spacer v80"></div>
 			<div id ="roseFeature" class="feature">
-				<div class=leftColumn">
+				<div class="leftColumn">
 					<div class="text">
 						<h2>RED ROSES</h2>
 						<div class="subHeading">LARGEST SELECTION OF RED ROSES</div>
@@ -64,7 +66,7 @@
 			</div>
 			<div class="spacer v80"></div>
 			<div id ="tulipFeature" class="feature">
-				<div class=leftColumn">
+				<div class="leftColumn">
 					<a class="featureImage">
 						<img src="images/tulip_feature.png"/>
 					</a>
@@ -86,7 +88,7 @@
 			</div>
 			<div class="spacer v80"></div>
 			<div id ="sunflowerFeature" class="feature">
-				<div class=leftColumn">
+				<div class="leftColumn">
 					<div class="text">
 						<h2>SHINE LITTLE SUNFLOWER</h2>
 						<div class="subHeading">BRIGHTEN UP YOUR DAY WITH SOME SUNFLOWERS</div>
@@ -103,15 +105,60 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div id="sunFlowerImage" class="middleImage">
+			<div id="sunflowerImage" class="middleImage">
 				<img src="images/sunflower_feature_2.png" />
 			</div>
 			<div id="scrollToTop" title="Scroll to top">
 				<span>&uarr;</span>
 			</div>
 			<div class="clear spacer v40"></div>
-
-
+			<div id="contactUs" class="feature">
+				<div class="leftColumn">
+					<div class="text">
+						<h2>CONTACT US</h2>
+						<hr />
+						<p>
+						TEL: 305-791-2937
+						</p>
+						<p>
+						EMAIL : <a href="mailto:INFO@FLOWERSHOP.COM" class="emailLink">INFO@FLOWERSHOP.COM</a>
+						</p>
+						<p>
+						FLOWER SHOP <br />
+						1450 Broadway<br />
+						New York, NY<br />
+						10018
+						</p>
+					</div>
+				</div>
+				<div class="rightColumn">
+					<iframe src="https://www.openstreetmap.org/node/2709702326#map=19/40.75478/-73.98651" frameborder="o" style="border:0" allowfullscreen class="contactMap"></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="clear spacer v80"></div>
+		<div id="subscribe">
+			<h2>SUBSCRIBE TO OUR MAILING LIST</h2>
+			<form action="/subscribe" method="post">
+				<input name="email" type="text" placeholder="Enter your email address" />
+				<input type="submit" value="Join Now" />
+			</form>
+		</div>
+		<div id="footer">
+			<ul>
+				<li>
+					<a href="/storeFinder">Store Finder</a>
+				</li>
+				<li>
+					<a href="/Shipping">Shipping</a>
+				</li>
+				<li>
+					<a href="/FAQ">FAQ</a>
+				</li>
+			</ul>
+		</div>
+		<div id="copyright">
+			<div>&copy; 2021 <span class="logo">FLOWER SHOP</span> </div>
 		</div>
 	</body>
 </html>
